@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="flex justify-between py-4 px-8 bg-verde-escuro border-b border-black">
+        <img src="img/logo.webp" alt="logo" class="w-[120px]">
+        <nav class="flex justify-center items-center font-semibold">
+            <ul class="flex gap-4 text-xl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex h-screen">
+        <div class="flex flex-col bg-preto-fundo w-[50%] items-center justify-around gap-16">
+            <div class="flex flex-col items-center justify-center gap-4">
+                <img class="w-[45%]" src="img/logo-branco.png" alt="">
+                <h1 class="text-verde-escuro text-8xl">HEALTHY <span class="italic">life</span></h1>
+            </div>
+
+            <div class="flex flex-col items-center gap-6">
+                <div class="flex flex-col items-center justify-center gap-4 w-[15%]">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d54273.0130450321!2d-52.336614!3d-31.768759!3m2!1i1024!2i768!4f13.1!2m1!1sAcademias%20em%20pelotas!5e0!3m2!1spt-BR!2sbr!4v1732891409303!5m2!1spt-BR!2sbr" width="800" height="600" style="border-radius:1rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p class="text-white">Conheça os parques e academias já cadastrados</p>
+            </div>
+
+        </div>
+        <div class="flex flex-col items-center justify-evenly w-[50%] bg-verde-escuro">
+            <h1 class="text-3xl font-bold">Cadastre-se e faça parte do teste Beta</h1>
+            <form class="flex flex-col items-start justify-center gap-4 pl-20 pr-20 h-[40%]">
+                    <div class="flex flex-col items-start gap-4">
+                        <div class="flex flex-col items-start gap-1 w-auto">
+                            <label>Nome Completo<span class="text-red-700"><b> *</b></span></label>
+                            <input class=" bg-stone-500 w-96 h-10 text-center border rounded-md p-2" type="text" required placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="flex flex-col items-start gap-1">
+                            <label>Número de telefone<span class="text-red-700"><b> *</b></span></label>
+                            <input class=" bg-stone-500 w-96 h-10 text-center border rounded-md p-2" type="tel" required placeholder="Digite seu n° de telefone - com DDD">
+                        </div>
+                        <div class="flex flex-col items-start gap-1">
+                            <label>E-mail<span class="text-red-700"><b> *</b></span></label>
+                            <input class=" bg-stone-500 w-96 h-10 text-center border rounded-md p-2" type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="mr-2">Como conheceu nosso aplicativo:</label>
+                        <select class=" bg-stone-500 w-32 h-10 text-center border rounded-md p-2">
+                            <option selected disabled>Selecione...</option>
+                            <option>Publicação no Instagram</option>
+                            <option>Propaganda no Youtube</option>
+                            <option>Indicação de amigos</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-col justify-around gap-3">
+                        <label for="">Quais atividades você pratica ou são do seu interesse:</label>
+                        <div class="flex justify-center gap-32">
+                            <div class="flex flex-col gap-1">
+                                <div class="flex gap-4"><input type="checkbox"> Artes Marciais</div>
+                                <div class="flex gap-4"><input type="checkbox"> Caminhada</div>
+                                <div class="flex gap-4"><input type="checkbox"> Corrida</div>
+                                <div class="flex gap-4"><input type="checkbox"> Dança</div>
+                                <div class="flex gap-4"><input type="checkbox"> Futebol</div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <div class="flex gap-4"><input type="checkbox"> Musculação</div>
+                                <div class="flex gap-4"><input type="checkbox"> Natação</div>
+                                <div class="flex gap-4"><input type="checkbox"> Volêi</div>
+                                <div class="flex gap-4"><input type="checkbox"> Yoga</div>
+                                <div class="flex gap-4"><input type="checkbox"> Outros</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center w-[100%] mt-4"><input class="text-white bg-preto-fundo rounded-2xl w-32 h-12 cursor-pointer" type="submit"></div>
+            </form>
+        </div>
+        
+    </main>
+    
+    <footer class="bg-preto-fundo py-1">
+        <p class="text-white text-center">Desenvolvido pelo Grupo 1: Wesley, Érica, Darion e Christian</p>
+    </footer>
+</body>
+
+</html>
