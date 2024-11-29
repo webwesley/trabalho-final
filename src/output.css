@@ -638,8 +638,16 @@ video {
   width: auto;
 }
 
-.w-screen {
-  width: 100vw;
+.w-\[150rem\] {
+  width: 150rem;
+}
+
+.w-\[50rem\] {
+  width: 50rem;
+}
+
+.w-\[60rem\] {
+  width: 60rem;
 }
 
 .cursor-pointer {
@@ -891,11 +899,6 @@ video {
 
 .tracking-widest {
   letter-spacing: 0.1em;
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-red-700 {
