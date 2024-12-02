@@ -630,6 +630,10 @@ video {
   width: 50%;
 }
 
+.w-\[60rem\] {
+  width: 60rem;
+}
+
 .w-\[80\%\] {
   width: 80%;
 }
@@ -638,16 +642,8 @@ video {
   width: auto;
 }
 
-.w-\[150rem\] {
-  width: 150rem;
-}
-
-.w-\[50rem\] {
-  width: 50rem;
-}
-
-.w-\[60rem\] {
-  width: 60rem;
+.w-\[25\%\] {
+  width: 25%;
 }
 
 .cursor-pointer {
